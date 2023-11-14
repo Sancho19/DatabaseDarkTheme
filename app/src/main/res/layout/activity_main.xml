@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtBirdwatcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#9C27B0"
+
+        android:fontFamily="sans-serif"
+        android:text="Birdwatcher za"
+        android:textColor="#FFFFFFFF"
+        android:textSize="25dp"
+        android:textStyle="normal|bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif"
+            android:text="Settings"
+            android:textAlignment="center"
+            android:textColor="#FF000000"
+            android:textSize="25dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theme"
+            android:paddingLeft="50dp"
+            android:textColor="#FF000000"
+            android:textSize="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rgTheme"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Light Mode"
+                android:padding="5dp" />
+
+            <RadioButton
+                android:id="@+id/rbDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dark Mode"
+                android:padding="5dp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:background="#25000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metric System Type"
+            android:paddingLeft="50dp"
+            android:textColor="#FF000000"
+            android:textSize="15dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rgMetricSystem"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbMiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Miles" />
+
+            <RadioButton
+                android:id="@+id/rbKilometers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Kilometeres (KM)" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:background="#25000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Maximun distance to travel to a bird Watching Hotspot Location"
+            android:paddingLeft="4dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FF000000"
+            android:textSize="15dp"
+            />
+
+        <EditText
+            android:id="@+id/etxtMaxDistance"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="5dp"
+            android:hint="Distance"
+            android:textSize="15dp"
+            android:layout_gravity="left"
+            android:background="@drawable/textview_shape"
+            android:drawablePadding="5dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_shape"
+            android:text="SAVE" />
+    </LinearLayout>
+
+</LinearLayout>

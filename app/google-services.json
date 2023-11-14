@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "365026806806",
+    "firebase_url": "https://storedata-c1188-default-rtdb.firebaseio.com",
+    "project_id": "storedata-c1188",
+    "storage_bucket": "storedata-c1188.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365026806806:android:c6b91c1cae85d23457f937",
+        "android_client_info": {
+          "package_name": "com.st10083248.database1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEa2ElJX5aA6sCj27hFsH8LjLC4Tykb-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
